@@ -1,0 +1,103 @@
+/* line 3, ../../../styles/main.sass */
+#main-content {
+  margin-top: 56px;
+}
+
+/* Space out content a bit */
+/* line 8, ../../../styles/main.sass */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+/* line 14, ../../../styles/main.sass */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+/* line 22, ../../../styles/main.sass */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+/* line 26, ../../../styles/main.sass */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+/* line 34, ../../../styles/main.sass */
+.footer {
+  padding-top: 19px;
+  color: #777777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  /* line 42, ../../../styles/main.sass */
+  .container {
+    max-width: 730px;
+  }
+}
+/* line 46, ../../../styles/main.sass */
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+/* line 51, ../../../styles/main.sass */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 55, ../../../styles/main.sass */
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+/* line 61, ../../../styles/main.sass */
+.marketing {
+  margin: 40px 0;
+}
+
+/* line 64, ../../../styles/main.sass */
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  /* line 71, ../../../styles/main.sass */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  /* line 78, ../../../styles/main.sass */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  /* line 82, ../../../styles/main.sass */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
