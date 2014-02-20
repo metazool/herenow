@@ -1,11 +1,11 @@
 {
   "name": "herenow",
-  "description": "FIXME",
+  "description": "Collaborate while staying in the flow",
   "version": "0.1.0",
-  "homepage": "FIXME",
+  "homepage": "http://github.com/metazool/herenow",
   "author": {
-    "name": "FIXME",
-    "url": "FIXME"
+    "name": "Jo Walsh",
+    "url": "http://twitter.com/ultrazool"
   },
   "dependencies": {},
   "devDependencies": {
