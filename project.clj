@@ -13,7 +13,8 @@
                  [markdown-clj "0.9.40"]
                  [liberator "0.10.0"]
                  [clj-time "0.6.0"]
-                 [environ "0.4.0"]]
+                 [environ "0.4.0"]
+                 [com.novemberain/monger "1.7.0"]]
 
   :aot :all
   :repl-options {:init-ns herenow.repl}
@@ -35,11 +36,15 @@
    :dev
    {:dependencies [[ring-mock "0.1.5"]
                     [ring/ring-devel "1.2.1"]]
-    :env {:selmer-dev true}}
+    :env {:selmer-dev true
+          :db-uri "mongodb://localhost/herenow"
+          :secret "aterriblesecret"}}
 
    :testing
    {:dependencies [[ring-mock "0.1.5"]
                    [ring/ring-devel "1.2.1"]]
-    :env {:selmer-dev true}}}
+    :env {:selmer-dev true
+          :db-uri "mongodb://localhost/herenow"
+          :secret "aterriblesecret"}}}
 
   :min-lein-version "2.0.0")
